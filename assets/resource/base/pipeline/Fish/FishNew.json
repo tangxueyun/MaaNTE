@@ -548,13 +548,13 @@
                 ]
             }
         },
-        "post_wait_freezes": 500,
+        "post_delay": 1000,
         "action": "Click",
         "next": [
             "[JumpBack]SceneClickBlankToExit",
-            "FishNewExitStore",
+            "FishNewSellFishEntrance",
             "FishNewConfirmBuyBait",
-            "FishNewSellFishEntrance"
+            "FishNewExitStore"
         ],
         "on_error": [
             "[Anchor]FishNewErrorRestart"
