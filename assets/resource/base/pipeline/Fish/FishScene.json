@@ -25,7 +25,7 @@
                 ]
             }
         },//识别是否在大世界钓鱼点旁边
-        "post_wait_freezes": 500,
+        "post_delay": 500,
         "action": {
             "type": "Custom",
             "param": {

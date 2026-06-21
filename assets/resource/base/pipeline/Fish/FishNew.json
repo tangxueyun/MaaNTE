@@ -555,7 +555,7 @@
             "FishNewSellFishEntrance",
             "FishNewConfirmBuyBait",
             "FishNewExitStore"
-        ],
+        ],//购买的鱼饵数量较少时不会弹出确认界面
         "on_error": [
             "[Anchor]FishNewErrorRestart"
         ]
