@@ -548,8 +548,11 @@
                 ]
             }
         },
+        "post_wait_freezes": 500,
         "action": "Click",
         "next": [
+            "[JumpBack]SceneClickBlankToExit",
+            "FishNewExitStore",
             "FishNewConfirmBuyBait",
             "FishNewSellFishEntrance"
         ],
